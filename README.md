@@ -1,4 +1,4 @@
-# firstProjectWithSpringBoot
+# learningSpringBoot
 
    Projeto simples utilizando springBoot para fins de didáticos.
    
