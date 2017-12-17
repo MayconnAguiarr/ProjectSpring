@@ -1,4 +1,4 @@
-package com.springBoot.produtos.dtos;
+package com.springBoot.produtos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Product")
-public class ProductDto {
+public class Product{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,43 +22,43 @@ public class ProductDto {
 	
 	private String description;
 
-	public Long getId() {
+	public Long getId(){
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(Long id){
 		this.id = id;
 	}
 
-	public String getName() {
+	public String getName(){
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name){
 		this.name = name;
 	}
 
-	public double getAmount() {
+	public double getAmount(){
 		return amount;
 	}
 
-	public void setAmount(double amount) {
+	public void setAmount(double amount){
 		this.amount = amount;
 	}
 
-	public double getVlr() {
+	public double getVlr(){
 		return vlr;
 	}
 
-	public void setVlr(double vlr) {
+	public void setVlr(double vlr){
 		this.vlr = vlr;
 	}
 
-	public String getDescription() {
+	public String getDescription(){
 		return description;
 	}
 
-	public void setDescription(String description) {
+	public void setDescription(String description){
 		this.description = description;
 	}	
 }
