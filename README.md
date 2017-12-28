@@ -1,9 +1,9 @@
-# learningSpringBoot
+# springBootWithThymeleaf
 
    Projeto simples utilizando springBoot para fins de didáticos.
    
 ## Objetivo
-   Listar produtos existente do banco de dados.   
+   Listar produtos existente no banco de dados.   
             
 ## Como testar ?
   1. Clone o repositório.
